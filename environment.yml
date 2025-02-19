@@ -1,0 +1,47 @@
+name: gimmick
+channels:
+  - pytorch
+  - nvidia
+  - huggingface
+  - conda-forge
+dependencies:
+  # base
+  - python>=3.10
+  - pytorch::pytorch=>2.2
+  - pytorch::pytorch-cuda=11.8
+  - pytorch::torchvision
+  - nvidia::cuda=11.8
+  - nvidia::cuda-nvcc=11.8
+  # mandatory libs
+  - transformers>=4.48.0
+  - datasets
+  - evaluate
+  - timm
+  - accelerate
+  - pandas
+  - wandb
+  - fire
+  - loguru
+  - nltk
+  # notebooks and plotting
+  - jupyter
+  - matplotlib
+  - plotly
+  # dev
+  - pyrootutils
+  - pre-commit
+  - ruff
+  - rich
+  - git
+  - pip
+  - pip:
+      - vertexai
+      - openai
+      - anthropic
+      - google-generativeai
+      - sentencepiece
+      - srsly
+      - backoff
+      - decord
+      - bert_score
+
