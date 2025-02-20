@@ -1,5 +1,7 @@
 # GIMMICK - Globally Inclusive Multimodal Multitask Cultural Knowledge Benchmarking
 
+![GIMMICK Overview](./assets/gimmick_fig1.png "GIMMICK Overview")
+
 # 🚧 Work in Progress 🚧
 
 # Setup the environment
